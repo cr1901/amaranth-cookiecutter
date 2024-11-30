@@ -1,0 +1,9 @@
+{
+    "project_name": "Amaranth IP",
+    "email": "anonymous@example.com",
+    "github_username": "cr1901",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Amaranth Core IP Template optimized for cr1901's workflow",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "author": "Anonymous"
+  }
