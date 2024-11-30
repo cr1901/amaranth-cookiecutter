@@ -64,6 +64,7 @@ test = { cmd = "pytest", help="run all pytest tests" }
 
 # Docs
 doc = { cmd = "sphinx-build doc/ doc/_build/" }
+doc-test = "sphinx-build -b doctest doc/ doc/_build"
 doc-linkck = "sphinx-build doc/ doc/_linkcheck/ -b linkcheck"
 doc-auto = "sphinx-autobuild doc/ doc/_build/ --watch src/sentinel --watch examples"
 
