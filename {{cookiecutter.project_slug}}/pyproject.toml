@@ -93,8 +93,6 @@ doc = [
     "myst-parser>=2.0.0",
     "sphinx-autobuild>=2024.2.4",
 ]
-# Though I expect users to provide sby, sby requires click and doesn't opt-in
-# to PEP 517. So provide it here.
 dev = [
     "amaranth-soc @ git+https://github.com/amaranth-lang/amaranth-soc",
     "pytest>=7.4.2",
