@@ -51,7 +51,7 @@ source-includes = [
 
 [tool.pdm.version]
 source = "scm"
-write_to = "{ cookiecutter.project_slug }}/version.txt"
+write_to = "{{ cookiecutter.project_slug }}/version.txt"
 
 [tool.pdm.scripts]
 _.env_file = ".env.toolchain"
