@@ -19,7 +19,7 @@ def write_yowasp_env_toolchain(fn):  # noqa: D103
 
 
 def task_prepare_yowasp():
-    """prepare Sentinel source for YoWASP tools"""
+    """prepare {{cookiecutter.project_name}} source for YoWASP tools"""
     return {
         "actions": [(write_yowasp_env_toolchain, (".env.toolchain",))],
         "uptodate": [run_once],
